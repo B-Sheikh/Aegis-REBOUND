@@ -6,7 +6,7 @@
 **Abhishek Bharathi · Aadithya Ram**<br>
 **Amrita Vishwa Vidyapeetham, Coimbatore** · Independent student team; no incubator affiliation
 
-[Watch the 20:30 project walkthrough](submission/Aegis_REBOUND_Demo.mp4) · [Silent product demo — 15:00](submission/Aegis_REBOUND_15min_Overview.mp4) · [Presentation](submission/Project_Presentation.pdf) · [Architecture](submission/Architecture.pdf) · [Technical report](submission/Technical_Report.pdf)
+[Watch the complete demonstration on YouTube](https://youtu.be/ILm7Eiy5NiM) · [Download the 20:30 walkthrough](submission/Aegis_REBOUND_Demo.mp4) · [Silent product demo — 15:00](submission/Aegis_REBOUND_15min_Overview.mp4) · [Presentation](submission/Project_Presentation.pdf) · [Architecture](submission/Architecture.pdf) · [Technical report](submission/Technical_Report.pdf)
 
 ![Aegis REBOUND product demonstration](submission/SILENT_DEMO_PREVIEW.jpg)
 
@@ -20,11 +20,11 @@ The forecast target is **three consecutive five-minute peak-flow values below 80
 
 ## Review the prototype
 
-1. **Watch:** the [20:30 walkthrough](submission/Aegis_REBOUND_Demo.mp4) covers the problem, algorithm, interface, experiments and outcomes. It contains disclosed computer narration and presentation/application captures. The [silent 15:00 edition](submission/Aegis_REBOUND_15min_Overview.mp4) adds seven captioned product-demo chapters; it is a supplementary shorter version.
+1. **Watch:** the [complete YouTube demonstration](https://youtu.be/ILm7Eiy5NiM) covers the problem, algorithm, interface, experiments and outcomes. The uploaded edition is silent. A [20:30 downloadable edition](submission/Aegis_REBOUND_Demo.mp4) with disclosed computer narration is also included. The [silent 15:00 edition](submission/Aegis_REBOUND_15min_Overview.mp4) adds seven captioned product-demo chapters; it is a supplementary shorter version.
 2. **Run:** launch the dashboard using the instructions below. Inspect competing hypotheses, play the timeline, assimilate a simulated observation, and compare the resulting state.
 3. **Inspect:** read the [algorithm](docs/ALGORITHM.md), [results and comparisons](docs/RESULTS.md), [model/data card](docs/MODEL_DATA_CARD.md), and [related work](docs/PRIOR_ART.md). Equations, artifacts and tests are included.
 
-Videos are hosted directly in this public repository. If GitHub does not play a video inline, use **View raw** or **Download raw file** on its file page.
+The main demonstration is available on [YouTube](https://youtu.be/ILm7Eiy5NiM). Downloadable video editions are also hosted directly in this public repository. If GitHub does not play a video inline, use **View raw** or **Download raw file** on its file page.
 
 ## Run locally
 

@@ -19,6 +19,8 @@ All observations in this tour are synthetic. Hypothesis weights are model explan
 
 ## Submission materials
 
+- [Watch the complete demonstration on YouTube](https://youtu.be/ILm7Eiy5NiM) — silent uploaded edition.
+
 - [20:30 project walkthrough](submission/Aegis_REBOUND_Demo.mp4) — complete narrated presentation and prototype overview.
 - [15:00 silent product demo](submission/Aegis_REBOUND_15min_Overview.mp4) — captioned interaction sequences, edited and paced for reading.
 - [Project presentation](submission/Project_Presentation.pdf), [architecture](submission/Architecture.pdf), and [technical report](submission/Technical_Report.pdf).
