@@ -1,0 +1,72 @@
+{
+  "file": "Aegis_REBOUND_15min_Overview.mp4",
+  "verified_duration_seconds": 900.0,
+  "bytes": 11713826,
+  "edition": "15-minute complete project overview",
+  "narration": "Disclosed Microsoft Zira computer voice",
+  "production": "All 12 chapters and complete narration retained from 20:30 edition, pitch-preserving tempo adjustment; approximately 150 words/minute",
+  "format": "Narrated presentation with verified application captures, not continuous live screen recording",
+  "original_20min_file": "Aegis_REBOUND_Demo.mp4",
+  "chapters": [
+    {
+      "title": "01 \u2014 The question",
+      "start_seconds": 0.0,
+      "end_seconds": 75.362
+    },
+    {
+      "title": "02 \u2014 Competing explanations",
+      "start_seconds": 75.362,
+      "end_seconds": 149.625
+    },
+    {
+      "title": "03 \u2014 Two streams, one personal state",
+      "start_seconds": 149.625,
+      "end_seconds": 224.646
+    },
+    {
+      "title": "04 \u2014 Inside the proposed RECAP algorithm",
+      "start_seconds": 224.646,
+      "end_seconds": 303.882
+    },
+    {
+      "title": "05 \u2014 A working state update",
+      "start_seconds": 303.882,
+      "end_seconds": 377.82
+    },
+    {
+      "title": "06 \u2014 Choosing the next observation",
+      "start_seconds": 377.82,
+      "end_seconds": 455.298
+    },
+    {
+      "title": "07 \u2014 The experiment can reject the idea",
+      "start_seconds": 455.298,
+      "end_seconds": 526.525
+    },
+    {
+      "title": "08 \u2014 Budgeted observation results",
+      "start_seconds": 526.525,
+      "end_seconds": 602.372
+    },
+    {
+      "title": "09 \u2014 The negative comparisons matter",
+      "start_seconds": 602.372,
+      "end_seconds": 673.645
+    },
+    {
+      "title": "10 \u2014 Missingness and changed physiology",
+      "start_seconds": 673.645,
+      "end_seconds": 746.075
+    },
+    {
+      "title": "11 \u2014 Originality and related work",
+      "start_seconds": 746.075,
+      "end_seconds": 822.367
+    },
+    {
+      "title": "12 \u2014 Reproduction and submission",
+      "start_seconds": 822.367,
+      "end_seconds": 900.0
+    }
+  ]
+}

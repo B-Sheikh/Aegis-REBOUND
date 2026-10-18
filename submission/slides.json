@@ -1,0 +1,119 @@
+[
+  [
+    "What is not returning to baseline?",
+    "cover",
+    [
+      "Aegis REBOUND",
+      "A respiratory twin that chooses the next useful observation",
+      "Passive activity. Competing explanations. A limited measurement budget.",
+      "Proposed RECAP algorithm. Entirely synthetic; not clinically validated."
+    ]
+  ],
+  [
+    "One signal can fit several explanations",
+    "hypotheses",
+    [
+      "Ordinary recovery",
+      "Airway deterioration",
+      "Sensor drift"
+    ]
+  ],
+  [
+    "Static history meets changing observations",
+    "streams",
+    [
+      "Personal resting HR/RR, peak-flow best, prior attacks",
+      "Wearable HR/RR, steps, exposure, sparse peak flow",
+      "A personal state that changes after every observed sample"
+    ]
+  ],
+  [
+    "RECAP: estimate, disagree, ask, update",
+    "flow",
+    [
+      "EHR-conditioned hypothesis bank",
+      "Nine continuous state filters",
+      "Mixture forecast + calibrated risk index",
+      "Expected information minus burden"
+    ]
+  ],
+  [
+    "A measurement changes the virtual patient",
+    "screenshot",
+    [
+      "Actual local app: R-065 at 10:00",
+      "Before: airway-family weight 81.2%; low-PEF event estimate 70.3%",
+      "After synthetic PEF: airway weight 97.1%; budget 1 of 2 remaining"
+    ]
+  ],
+  [
+    "The algorithm can also decide to wait",
+    "bullets",
+    [
+      "Candidates: peak-flow ratio or independent respiratory rate.",
+      "Nine-point Gaussian quadrature over possible outcomes.",
+      "Score: expected risk/hypothesis entropy reduction minus assumed burden.",
+      "Wait if no positive score, budget exhausted, or cooldown active."
+    ]
+  ],
+  [
+    "A patient-disjoint, falsifiable experiment",
+    "split",
+    [
+      "48 training / 16 calibration / 24 test patients",
+      "904 held-out issue windows; 298 positive future windows",
+      "Fixed and adaptive policies share a maximum two additional probes.",
+      "Hand-specified filter dynamics; no claim of learned physiology."
+    ]
+  ],
+  [
+    "Adaptive sensing used fewer extra observations",
+    "probe",
+    [
+      "Fixed: 48 optional probes; Brier 0.0622",
+      "Adaptive: 38 optional probes; Brier 0.0593",
+      "Paired patient-mean Brier difference -0.00282",
+      "95% patient-bootstrap interval: -0.00536 to -0.00016"
+    ]
+  ],
+  [
+    "Complexity did not win every comparison",
+    "ablation",
+    [
+      "Passive RECAP: AUROC 0.943; Brier 0.0643",
+      "Single recovery setting: Brier 0.0633",
+      "Wearable/context classifier: Brier 0.0574",
+      "Recovery diversity did not improve event classification in this run."
+    ]
+  ],
+  [
+    "A gap is a reason to withhold a forecast",
+    "gap",
+    [
+      "Freshness and completeness are checked before displaying inference.",
+      "Sensor-gap example: 41.7% completeness, stale readings.",
+      "No hypothesis ranking or event probability is shown.",
+      "Bands elsewhere are uncalibrated model moments, not guarantees."
+    ]
+  ],
+  [
+    "A proposed composition, with visible prior art",
+    "bullets",
+    [
+      "Asthma twins, recovery slowing and active sensing already exist.",
+      "The proposed contribution combines recovery-aware competing states with budgeted ambiguity resolution.",
+      "A targeted literature search does not establish global novelty or patentability.",
+      "The simulator cannot establish attack prediction or patient benefit."
+    ]
+  ],
+  [
+    "Make the uncertainty inspectable",
+    "closing",
+    [
+      "Team Aegis",
+      "Abhishek Bharathi + Aadithya Ram",
+      "Amrita Vishwa Vidyapeetham, Coimbatore | No incubator",
+      "Working code, experiments, diagrams, docs, and recorded demonstration"
+    ]
+  ]
+]

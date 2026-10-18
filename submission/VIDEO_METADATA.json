@@ -1,0 +1,81 @@
+{
+  "file": "Aegis_REBOUND_Demo.mp4",
+  "verified_duration_seconds": 1230.0,
+  "narration": "Microsoft Zira computer voice, explicitly disclosed",
+  "format": "Narrated project slides with verified application capture; not uninterrupted live screen recording",
+  "chapters": [
+    {
+      "slide": 1,
+      "title": "01 \u2014 The question",
+      "start_seconds": 0,
+      "duration_seconds": 102.995
+    },
+    {
+      "slide": 2,
+      "title": "02 \u2014 Competing explanations",
+      "start_seconds": 102.995,
+      "duration_seconds": 101.492
+    },
+    {
+      "slide": 3,
+      "title": "03 \u2014 Two streams, one personal state",
+      "start_seconds": 204.487,
+      "duration_seconds": 102.529
+    },
+    {
+      "slide": 4,
+      "title": "04 \u2014 Inside the proposed RECAP algorithm",
+      "start_seconds": 307.016,
+      "duration_seconds": 108.289
+    },
+    {
+      "slide": 5,
+      "title": "05 \u2014 A working state update",
+      "start_seconds": 415.305,
+      "duration_seconds": 101.049
+    },
+    {
+      "slide": 6,
+      "title": "06 \u2014 Choosing the next observation",
+      "start_seconds": 516.354,
+      "duration_seconds": 105.886
+    },
+    {
+      "slide": 7,
+      "title": "07 \u2014 The experiment can reject the idea",
+      "start_seconds": 622.24,
+      "duration_seconds": 97.343
+    },
+    {
+      "slide": 8,
+      "title": "08 \u2014 Budgeted observation results",
+      "start_seconds": 719.584,
+      "duration_seconds": 103.658
+    },
+    {
+      "slide": 9,
+      "title": "09 \u2014 The negative comparisons matter",
+      "start_seconds": 823.242,
+      "duration_seconds": 97.406
+    },
+    {
+      "slide": 10,
+      "title": "10 \u2014 Missingness and changed physiology",
+      "start_seconds": 920.648,
+      "duration_seconds": 98.988
+    },
+    {
+      "slide": 11,
+      "title": "11 \u2014 Originality and related work",
+      "start_seconds": 1019.636,
+      "duration_seconds": 104.266
+    },
+    {
+      "slide": 12,
+      "title": "12 \u2014 Reproduction and submission",
+      "start_seconds": 1123.902,
+      "duration_seconds": 106.098
+    }
+  ],
+  "bytes": 15180180
+}
