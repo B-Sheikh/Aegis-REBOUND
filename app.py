@@ -1,7 +1,7 @@
 """Local synthetic-only REBOUND demo. No real patient uploads or external APIs."""
 from pathlib import Path
 from http.server import ThreadingHTTPServer,BaseHTTPRequestHandler
-import json,argparse,threading,webbrowser
+import json,argparse,threading,webbrowser,os
 from rebound.data import patient
 from rebound.recap import replay
 from rebound.benchmark import predict,probe_value
@@ -61,8 +61,8 @@ def handler(app):
     return Handler
 
 def main():
-    args=argparse.ArgumentParser();args.add_argument('--port',type=int,default=8766);args.add_argument('--no-browser',action='store_true');a=args.parse_args()
-    server=ThreadingHTTPServer(('127.0.0.1',a.port),handler(App()));url=f'http://127.0.0.1:{a.port}'
+    args=argparse.ArgumentParser();args.add_argument('--host',default='127.0.0.1');args.add_argument('--port',type=int,default=int(os.environ.get('PORT','8766')));args.add_argument('--no-browser',action='store_true');a=args.parse_args()
+    server=ThreadingHTTPServer((a.host,a.port),handler(App()));url=f'http://{a.host}:{a.port}'
     print('AEGIS REBOUND | Synthetic research demo | '+url,flush=True)
     if not a.no_browser:threading.Timer(.7,lambda:webbrowser.open(url)).start()
     try:server.serve_forever()

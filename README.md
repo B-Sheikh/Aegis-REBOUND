@@ -42,6 +42,10 @@ python app.py
 
 Use `python app.py --port 8767` to choose another port. Stop the local development server with Ctrl+C. See [the quick demo guide](START_HERE.md) for a step-by-step evaluation route.
 
+## Host the demo on Render
+
+A Render Web Service can serve the dashboard and Python API together. The included `render.yaml` and `.python-version` configure the deployment. Follow the [Render setup guide](docs/RENDER_DEPLOYMENT.md) for the exact build/start commands and health check.
+
 ## RECAP: the implemented algorithm
 
 **Recovery-conditioned Ensemble with Cost-Aware Probing** combines:
