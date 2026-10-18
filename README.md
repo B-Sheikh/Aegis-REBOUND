@@ -79,7 +79,7 @@ The synthetic generator is nonlinear and differs from the filter transition equa
 
 ## Submission materials
 
-- [15-minute complete project overview](submission/Aegis_REBOUND_15min_Overview.mp4) — requested shorter edition, with [chapter timings](submission/OVERVIEW_15MIN.md).
+- [15-minute complete project overview](submission/Aegis_REBOUND_15min_Overview.mp4) — silent captioned product-demo edition, with [chapter timings](submission/OVERVIEW_15MIN.md).
 - [20:30 computer-narrated local walkthrough](submission/Aegis_REBOUND_Demo.mp4) — slides and verified application captures; review before uploading.
 - [Start here](START_HERE.md) and [jury questions](submission/JURY_QA.md).
 
@@ -94,7 +94,7 @@ The synthetic generator is nonlinear and differs from the filter transition equa
 
 **Unlisted YouTube demo:** add the actual reviewed video URL after upload. Any included local walkthrough must be reviewed before submission; a local path is not a reachable YouTube link.
 
-The 15-minute edition provides a complete overview of the problem, RECAP, the working state update, experiments, limitations and reproduction at approximately 150 narrated words per minute. Both editions disclose the computer-generated voice and use recorded application states. The 20:30 edition is retained because the supplied challenge brief also specifies a minimum 20-minute video; use that edition for the stricter requirement.
+The 15-minute edition has no audio track and includes captured product interactions: replay updates, peak-flow and independent-RR assimilation, ambiguous hypotheses, future-overlay inspection, sensor-gap abstention, and experiment results. Captions explain each action; sequences are edited and paced for reading. Editable captures and captions are in `submission/demo_assets/`; rebuild with `python tools/create_15min_overview.py` (Pillow and FFmpeg required). The original narrated 20:30 edition is retained because the supplied challenge brief specifies a minimum 20-minute video.
 
 **Team leader:** designate before registration. The brief requires the registering person to be leader; both members must confirm their details. Submit the leader’s actual name, phone, email and public repository URL on the organizer’s platform. Do not put private contact details in the public README unnecessarily.
 

@@ -9,7 +9,7 @@
 - [x] Source and new synthetic data licensed under MIT.
 - [x] Architecture and project presentation in PDF format; technical report and demo materials.
 - [x] Local computer-narrated walkthrough longer than 20 minutes, with disclosure and chapter metadata. It is not uploaded or submitted.
-- [x] Separate 15-minute complete overview with chapter metadata, retaining the full project explanation.
+- [x] Separate silent 15-minute overview with captions, seven product-demo chapters, editable capture assets and chapter metadata.
 - [ ] Review the local walkthrough; record team narration if preferred. Use at least 20 minutes to satisfy the stricter wording in the supplied brief.
 - [ ] Upload the reviewed demo as unlisted YouTube and add its actual reachable URL to README.
 - [x] Public GitHub repository: https://github.com/B-Sheikh/Aegis-REBOUND . Source, synthetic artifacts, documents and both local video editions are included.

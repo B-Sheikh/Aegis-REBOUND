@@ -1,0 +1,758 @@
+[
+  {
+    "chapter": "The product question",
+    "source": "slide-01.png",
+    "caption": "Aegis REBOUND: a recovery-aware respiratory digital twin. Team Aegis: Abhishek Bharathi and Aadithya Ram, Amrita Vishwa Vidyapeetham, Coimbatore.",
+    "seconds": 15
+  },
+  {
+    "chapter": "The product question",
+    "source": "slide-01.png",
+    "caption": "This silent overview uses captions and actual product captures. Interaction sequences are edited and paced for reading.",
+    "seconds": 15
+  },
+  {
+    "chapter": "The product question",
+    "source": "slide-01.png",
+    "caption": "The question: when breathing stays raised after everyday activity, which explanation fits the observations?",
+    "seconds": 15
+  },
+  {
+    "chapter": "The product question",
+    "source": "slide-01.png",
+    "caption": "The product compares ordinary recovery, airway deterioration and sensor drift rather than presenting one unexplained score.",
+    "seconds": 15
+  },
+  {
+    "chapter": "The product question",
+    "source": "slide-01.png",
+    "caption": "The working prototype combines a personal synthetic EHR with a five-minute wearable and context stream.",
+    "seconds": 15
+  },
+  {
+    "chapter": "The product question",
+    "source": "slide-01.png",
+    "caption": "Every patient and measurement here is invented. The prototype is for research demonstration and has no clinical validation.",
+    "seconds": 15
+  },
+  {
+    "chapter": "Inside the algorithm",
+    "source": "algorithm.png",
+    "caption": "RECAP means Recovery-conditioned Ensemble with Cost-Aware Probing. This screen explains the implemented composition.",
+    "seconds": 15
+  },
+  {
+    "chapter": "Inside the algorithm",
+    "source": "algorithm.png",
+    "caption": "The personal record supplies resting heart rate, resting respiratory rate, peak-flow best and history-based priors.",
+    "seconds": 15
+  },
+  {
+    "chapter": "Inside the algorithm",
+    "source": "algorithm.png",
+    "caption": "Three explanations times three recovery settings create nine state filters. Each tracks an airway proxy, trend, activity debt and sensor bias.",
+    "seconds": 15
+  },
+  {
+    "chapter": "Inside the algorithm",
+    "source": "algorithm.png",
+    "caption": "Kalman updates estimate continuous states. Tempered observation evidence and soft forgetting update the competing model weights.",
+    "seconds": 15
+  },
+  {
+    "chapter": "Inside the algorithm",
+    "source": "algorithm.png",
+    "caption": "The planner approximates expected information for peak flow or independent respiratory rate, then subtracts assumed measurement burden.",
+    "seconds": 15
+  },
+  {
+    "chapter": "Inside the algorithm",
+    "source": "algorithm.png",
+    "caption": "A wait action is valid. A two-probe daily cap and two-hour cooldown prevent repeated optional measurements.",
+    "seconds": 15
+  },
+  {
+    "chapter": "Demo 1 - Replay the day",
+    "source": "replay/frame-000.png",
+    "caption": "Watch the replay clock advance in five-minute simulation steps. Each frame is a captured UI update, held for five seconds.  Day 1 \u00b7 10:05; displayed estimate 76.6%.",
+    "seconds": 5,
+    "crop": [
+      0,
+      143,
+      1584,
+      1100
+    ]
+  },
+  {
+    "chapter": "Demo 1 - Replay the day",
+    "source": "replay/frame-001.png",
+    "caption": "Watch the replay clock advance in five-minute simulation steps. Each frame is a captured UI update, held for five seconds.  Day 1 \u00b7 10:10; displayed estimate 82.0%.",
+    "seconds": 5,
+    "crop": [
+      0,
+      143,
+      1584,
+      1100
+    ]
+  },
+  {
+    "chapter": "Demo 1 - Replay the day",
+    "source": "replay/frame-002.png",
+    "caption": "Watch the replay clock advance in five-minute simulation steps. Each frame is a captured UI update, held for five seconds.  Day 1 \u00b7 10:15; displayed estimate 77.2%.",
+    "seconds": 5,
+    "crop": [
+      0,
+      143,
+      1584,
+      1100
+    ]
+  },
+  {
+    "chapter": "Demo 1 - Replay the day",
+    "source": "replay/frame-003.png",
+    "caption": "Watch the replay clock advance in five-minute simulation steps. Each frame is a captured UI update, held for five seconds.  Day 1 \u00b7 10:20; displayed estimate 81.2%.",
+    "seconds": 5,
+    "crop": [
+      0,
+      143,
+      1584,
+      1100
+    ]
+  },
+  {
+    "chapter": "Demo 1 - Replay the day",
+    "source": "replay/frame-004.png",
+    "caption": "Watch the replay clock advance in five-minute simulation steps. Each frame is a captured UI update, held for five seconds.  Day 1 \u00b7 10:25; displayed estimate 82.9%.",
+    "seconds": 5,
+    "crop": [
+      0,
+      143,
+      1584,
+      1100
+    ]
+  },
+  {
+    "chapter": "Demo 1 - Replay the day",
+    "source": "replay/frame-005.png",
+    "caption": "Watch the replay clock advance in five-minute simulation steps. Each frame is a captured UI update, held for five seconds.  Day 1 \u00b7 10:30; displayed estimate 87.5%.",
+    "seconds": 5,
+    "crop": [
+      0,
+      143,
+      1584,
+      1100
+    ]
+  },
+  {
+    "chapter": "Demo 1 - Replay the day",
+    "source": "replay/frame-006.png",
+    "caption": "The green respiratory trace evolves as observations arrive. The dashed reference is the personal resting baseline.  Day 1 \u00b7 10:35; displayed estimate 88.4%.",
+    "seconds": 5,
+    "crop": [
+      0,
+      143,
+      1584,
+      1100
+    ]
+  },
+  {
+    "chapter": "Demo 1 - Replay the day",
+    "source": "replay/frame-007.png",
+    "caption": "The green respiratory trace evolves as observations arrive. The dashed reference is the personal resting baseline.  Day 1 \u00b7 10:40; displayed estimate 89.4%.",
+    "seconds": 5,
+    "crop": [
+      0,
+      143,
+      1584,
+      1100
+    ]
+  },
+  {
+    "chapter": "Demo 1 - Replay the day",
+    "source": "replay/frame-008.png",
+    "caption": "The green respiratory trace evolves as observations arrive. The dashed reference is the personal resting baseline.  Day 1 \u00b7 10:45; displayed estimate 89.1%.",
+    "seconds": 5,
+    "crop": [
+      0,
+      143,
+      1584,
+      1100
+    ]
+  },
+  {
+    "chapter": "Demo 1 - Replay the day",
+    "source": "replay/frame-009.png",
+    "caption": "The green respiratory trace evolves as observations arrive. The dashed reference is the personal resting baseline.  Day 1 \u00b7 10:50; displayed estimate 90.9%.",
+    "seconds": 5,
+    "crop": [
+      0,
+      143,
+      1584,
+      1100
+    ]
+  },
+  {
+    "chapter": "Demo 1 - Replay the day",
+    "source": "replay/frame-010.png",
+    "caption": "The green respiratory trace evolves as observations arrive. The dashed reference is the personal resting baseline.  Day 1 \u00b7 10:55; displayed estimate 90.6%.",
+    "seconds": 5,
+    "crop": [
+      0,
+      143,
+      1584,
+      1100
+    ]
+  },
+  {
+    "chapter": "Demo 1 - Replay the day",
+    "source": "replay/frame-011.png",
+    "caption": "The green respiratory trace evolves as observations arrive. The dashed reference is the personal resting baseline.  Day 1 \u00b7 11:00; displayed estimate 91.5%.",
+    "seconds": 5,
+    "crop": [
+      0,
+      143,
+      1584,
+      1100
+    ]
+  },
+  {
+    "chapter": "Demo 1 - Replay the day",
+    "source": "replay/frame-012.png",
+    "caption": "The three explanation weights change with the incoming evidence. They are model weights, not diagnoses.  Day 1 \u00b7 11:05; displayed estimate 91.1%.",
+    "seconds": 5,
+    "crop": [
+      0,
+      143,
+      1584,
+      1100
+    ]
+  },
+  {
+    "chapter": "Demo 1 - Replay the day",
+    "source": "replay/frame-013.png",
+    "caption": "The three explanation weights change with the incoming evidence. They are model weights, not diagnoses.  Day 1 \u00b7 11:10; displayed estimate 91.8%.",
+    "seconds": 5,
+    "crop": [
+      0,
+      143,
+      1584,
+      1100
+    ]
+  },
+  {
+    "chapter": "Demo 1 - Replay the day",
+    "source": "replay/frame-014.png",
+    "caption": "The three explanation weights change with the incoming evidence. They are model weights, not diagnoses.  Day 1 \u00b7 11:15; displayed estimate 91.1%.",
+    "seconds": 5,
+    "crop": [
+      0,
+      143,
+      1584,
+      1100
+    ]
+  },
+  {
+    "chapter": "Demo 1 - Replay the day",
+    "source": "replay/frame-015.png",
+    "caption": "The three explanation weights change with the incoming evidence. They are model weights, not diagnoses.  Day 1 \u00b7 11:20; displayed estimate 90.7%.",
+    "seconds": 5,
+    "crop": [
+      0,
+      143,
+      1584,
+      1100
+    ]
+  },
+  {
+    "chapter": "Demo 1 - Replay the day",
+    "source": "replay/frame-016.png",
+    "caption": "The three explanation weights change with the incoming evidence. They are model weights, not diagnoses.  Day 1 \u00b7 11:25; displayed estimate 90.8%.",
+    "seconds": 5,
+    "crop": [
+      0,
+      143,
+      1584,
+      1100
+    ]
+  },
+  {
+    "chapter": "Demo 1 - Replay the day",
+    "source": "replay/frame-017.png",
+    "caption": "The three explanation weights change with the incoming evidence. They are model weights, not diagnoses.  Day 1 \u00b7 11:30; displayed estimate 92.3%.",
+    "seconds": 5,
+    "crop": [
+      0,
+      143,
+      1584,
+      1100
+    ]
+  },
+  {
+    "chapter": "Demo 1 - Replay the day",
+    "source": "replay/frame-018.png",
+    "caption": "The forecast and synthetic low-peak-flow event estimate update alongside the explanation weights.  Day 1 \u00b7 11:35; displayed estimate 91.6%.",
+    "seconds": 5,
+    "crop": [
+      0,
+      143,
+      1584,
+      1100
+    ]
+  },
+  {
+    "chapter": "Demo 1 - Replay the day",
+    "source": "replay/frame-019.png",
+    "caption": "The forecast and synthetic low-peak-flow event estimate update alongside the explanation weights.  Day 1 \u00b7 11:40; displayed estimate 92.1%.",
+    "seconds": 5,
+    "crop": [
+      0,
+      143,
+      1584,
+      1100
+    ]
+  },
+  {
+    "chapter": "Demo 1 - Replay the day",
+    "source": "replay/frame-020.png",
+    "caption": "The forecast and synthetic low-peak-flow event estimate update alongside the explanation weights.  Day 1 \u00b7 11:45; displayed estimate 91.9%.",
+    "seconds": 5,
+    "crop": [
+      0,
+      143,
+      1584,
+      1100
+    ]
+  },
+  {
+    "chapter": "Demo 1 - Replay the day",
+    "source": "replay/frame-021.png",
+    "caption": "The forecast and synthetic low-peak-flow event estimate update alongside the explanation weights.  Day 1 \u00b7 11:50; displayed estimate 92.4%.",
+    "seconds": 5,
+    "crop": [
+      0,
+      143,
+      1584,
+      1100
+    ]
+  },
+  {
+    "chapter": "Demo 1 - Replay the day",
+    "source": "replay/frame-022.png",
+    "caption": "The forecast and synthetic low-peak-flow event estimate update alongside the explanation weights.  Day 1 \u00b7 11:55; displayed estimate 92.4%.",
+    "seconds": 5,
+    "crop": [
+      0,
+      143,
+      1584,
+      1100
+    ]
+  },
+  {
+    "chapter": "Demo 1 - Replay the day",
+    "source": "replay/frame-023.png",
+    "caption": "The forecast and synthetic low-peak-flow event estimate update alongside the explanation weights.  Day 1 \u00b7 12:00; displayed estimate 93.9%.",
+    "seconds": 5,
+    "crop": [
+      0,
+      143,
+      1584,
+      1100
+    ]
+  },
+  {
+    "chapter": "Demo 2 - Peak-flow update",
+    "source": "probe-before.png",
+    "caption": "R-065 at 10:00: before the optional measurement, the airway explanation has 81.2% weight and the low-PEF event estimate is 70.3%.",
+    "seconds": 15,
+    "crop": [
+      0,
+      143,
+      1584,
+      1100
+    ]
+  },
+  {
+    "chapter": "Demo 2 - Peak-flow update",
+    "source": "probe-before.png",
+    "caption": "The planner selects a simulated peak-flow observation because its expected information exceeds its assumed burden.",
+    "seconds": 15,
+    "crop": [
+      0,
+      143,
+      1584,
+      1100
+    ]
+  },
+  {
+    "chapter": "Demo 2 - Peak-flow update",
+    "source": "probe-before.png",
+    "caption": "The optional measurement budget starts at 2 / 2. Clicking the product button reveals an additional synthetic observation.",
+    "seconds": 15,
+    "crop": [
+      0,
+      143,
+      1584,
+      1100
+    ]
+  },
+  {
+    "chapter": "Demo 2 - Peak-flow update",
+    "source": "probe-before.png",
+    "caption": "This is an observation update at the same replay time, so the change can be compared directly with the next capture.",
+    "seconds": 15,
+    "crop": [
+      0,
+      143,
+      1584,
+      1100
+    ]
+  },
+  {
+    "chapter": "Demo 2 - Peak-flow update",
+    "source": "probe-after.png",
+    "caption": "After the actual button interaction, airway weight changes to 97.1%. Ordinary recovery is 1.7%, and sensor drift is 1.3%.",
+    "seconds": 15,
+    "crop": [
+      0,
+      143,
+      1584,
+      1100
+    ]
+  },
+  {
+    "chapter": "Demo 2 - Peak-flow update",
+    "source": "probe-after.png",
+    "caption": "The event estimate changes to 75.6%. Hypothesis weight and event probability answer different questions; they need not change by the same amount.",
+    "seconds": 15,
+    "crop": [
+      0,
+      143,
+      1584,
+      1100
+    ]
+  },
+  {
+    "chapter": "Demo 2 - Peak-flow update",
+    "source": "probe-after.png",
+    "caption": "The remaining budget is 1 / 2. The selected action becomes Wait for passive data, and the optional measurement button is disabled.",
+    "seconds": 15,
+    "crop": [
+      0,
+      143,
+      1584,
+      1100
+    ]
+  },
+  {
+    "chapter": "Demo 2 - Peak-flow update",
+    "source": "probe-after.png",
+    "caption": "The product enforces the cooldown after assimilation. It does not automatically request another measurement to chase certainty.",
+    "seconds": 15,
+    "crop": [
+      0,
+      143,
+      1584,
+      1100
+    ]
+  },
+  {
+    "chapter": "Demo 3 - Independent respiratory rate",
+    "source": "ordinary-before.png",
+    "caption": "The Ordinary activity shortcut selects R-064 at 08:00. Here the event estimate is low despite raised breathing during activity.",
+    "seconds": 15
+  },
+  {
+    "chapter": "Demo 3 - Independent respiratory rate",
+    "source": "ordinary-before.png",
+    "caption": "The planner chooses independent respiratory rate rather than peak flow. Its small positive information-minus-burden score wins.",
+    "seconds": 15
+  },
+  {
+    "chapter": "Demo 3 - Independent respiratory rate",
+    "source": "ordinary-after.png",
+    "caption": "After the simulated independent-RR measurement, the budget drops from two to one and the product chooses to wait.",
+    "seconds": 15
+  },
+  {
+    "chapter": "Demo 3 - Independent respiratory rate",
+    "source": "ordinary-after.png",
+    "caption": "The event estimate remains 5.6%. An observation may change the explanation weights only slightly; the demo does not force a dramatic result.",
+    "seconds": 15
+  },
+  {
+    "chapter": "Demo 4 - Ambiguous evidence",
+    "source": "ambiguous-before.png",
+    "caption": "The Ambiguous rise shortcut selects R-066 at 09:00. The three explanations remain close: 25.1%, 36.4% and 38.5%.",
+    "seconds": 15,
+    "crop": [
+      245,
+      500,
+      1550,
+      1430
+    ]
+  },
+  {
+    "chapter": "Demo 4 - Ambiguous evidence",
+    "source": "ambiguous-before.png",
+    "caption": "The low-PEF event estimate is 7.1%. Uncertainty about the cause does not automatically imply a high event probability.",
+    "seconds": 15,
+    "crop": [
+      245,
+      500,
+      1550,
+      1430
+    ]
+  },
+  {
+    "chapter": "Demo 4 - Ambiguous evidence",
+    "source": "ambiguous-before.png",
+    "caption": "Peak-flow information is 0.049 nats and assumed burden is 0.035, giving a positive selection score of 0.014.",
+    "seconds": 15,
+    "crop": [
+      245,
+      500,
+      1550,
+      1430
+    ]
+  },
+  {
+    "chapter": "Demo 4 - Ambiguous evidence",
+    "source": "ambiguous-after.png",
+    "caption": "The optional peak-flow update raises airway weight to 51.1%, with ordinary recovery at 21.3% and sensor drift at 27.6%.",
+    "seconds": 15,
+    "crop": [
+      245,
+      500,
+      1550,
+      1430
+    ]
+  },
+  {
+    "chapter": "Demo 4 - Ambiguous evidence",
+    "source": "ambiguous-after.png",
+    "caption": "The event estimate changes only to 7.4%. The product retains uncertainty instead of converting the leading explanation into a diagnosis.",
+    "seconds": 15,
+    "crop": [
+      245,
+      500,
+      1550,
+      1430
+    ]
+  },
+  {
+    "chapter": "Demo 4 - Ambiguous evidence",
+    "source": "ambiguous-after.png",
+    "caption": "The new state is assimilated, the budget is 1 / 2, and cooldown makes waiting the next action.",
+    "seconds": 15,
+    "crop": [
+      245,
+      500,
+      1550,
+      1430
+    ]
+  },
+  {
+    "chapter": "Demo 5 - Retrospective forecast check",
+    "source": "future-revealed.png",
+    "caption": "The Reveal withheld future checkbox is now selected. It adds the held-out synthetic future to the forecast display for retrospective inspection.",
+    "seconds": 15,
+    "crop": [
+      245,
+      1020,
+      1240,
+      1510
+    ]
+  },
+  {
+    "chapter": "Demo 5 - Retrospective forecast check",
+    "source": "future-revealed.png",
+    "caption": "The future trace is a comparison overlay. It is not an observation fed into the filter at forecast issue time.",
+    "seconds": 15,
+    "crop": [
+      245,
+      1020,
+      1240,
+      1510
+    ]
+  },
+  {
+    "chapter": "Demo 5 - Retrospective forecast check",
+    "source": "future-revealed.png",
+    "caption": "The forecast assumes no further activity and constant current exposure. A mismatch can reveal limitations of those assumptions.",
+    "seconds": 15,
+    "crop": [
+      245,
+      1020,
+      1240,
+      1510
+    ]
+  },
+  {
+    "chapter": "Demo 5 - Retrospective forecast check",
+    "source": "future-revealed.png",
+    "caption": "The shaded bands describe mixture moments. Their coverage is uncalibrated, so they are not guaranteed clinical prediction intervals.",
+    "seconds": 15,
+    "crop": [
+      245,
+      1020,
+      1240,
+      1510
+    ]
+  },
+  {
+    "chapter": "Demo 6 - Sensor-gap abstention",
+    "source": "sensor-gap.png",
+    "caption": "The Sensor gap shortcut selects R-066 at 14:30. Last-hour sensor completeness is only 41.7%.",
+    "seconds": 15
+  },
+  {
+    "chapter": "Demo 6 - Sensor-gap abstention",
+    "source": "sensor-gap.png",
+    "caption": "The product replaces explanation weights with Inference withheld and removes the event probability.",
+    "seconds": 15
+  },
+  {
+    "chapter": "Demo 6 - Sensor-gap abstention",
+    "source": "sensor-gap.png",
+    "caption": "The next action becomes Restore sensor data first. The model needs three hours of history, recent HR/RR and at least 75% completeness.",
+    "seconds": 15
+  },
+  {
+    "chapter": "Demo 6 - Sensor-gap abstention",
+    "source": "sensor-gap.png",
+    "caption": "This is a working abstention path: the interface does not display a confident prediction when its required inputs are missing.",
+    "seconds": 15
+  },
+  {
+    "chapter": "Demo 7 - Experiments and results",
+    "source": "experiments.png",
+    "caption": "The Experiments screen reports a patient-disjoint synthetic benchmark: 48 training, 16 calibration and 24 test patients.",
+    "seconds": 15,
+    "crop": [
+      245,
+      80,
+      1550,
+      850
+    ]
+  },
+  {
+    "chapter": "Demo 7 - Experiments and results",
+    "source": "experiments.png",
+    "caption": "Forecasts issue every thirty minutes for a two-hour target. The endpoint is sustained future low peak flow, including already-low states.",
+    "seconds": 15,
+    "crop": [
+      245,
+      80,
+      1550,
+      850
+    ]
+  },
+  {
+    "chapter": "Demo 7 - Experiments and results",
+    "source": "experiments.png",
+    "caption": "The passive RECAP Brier score is 0.0643. The simpler wearable/context classifier scores about 0.0574, which is better on this benchmark.",
+    "seconds": 15,
+    "crop": [
+      245,
+      80,
+      1550,
+      850
+    ]
+  },
+  {
+    "chapter": "Demo 7 - Experiments and results",
+    "source": "experiments.png",
+    "caption": "The single-recovery ablation also slightly outperforms the recovery bank. These negative comparisons are retained in the product.",
+    "seconds": 15,
+    "crop": [
+      245,
+      80,
+      1550,
+      850
+    ]
+  },
+  {
+    "chapter": "Demo 7 - Experiments and results",
+    "source": "experiments.png",
+    "caption": "All measurement policies share regular four-hourly peak-flow readings. Fixed and adaptive policies have the same cap of two additional probes per day.",
+    "seconds": 15,
+    "crop": [
+      245,
+      815,
+      1550,
+      1620
+    ]
+  },
+  {
+    "chapter": "Demo 7 - Experiments and results",
+    "source": "experiments.png",
+    "caption": "Adaptive uses 38 optional probes versus 48 for fixed scheduling. Its Brier score is 0.0593 versus 0.0622 in this synthetic cohort.",
+    "seconds": 15,
+    "crop": [
+      245,
+      815,
+      1550,
+      1620
+    ]
+  },
+  {
+    "chapter": "Demo 7 - Experiments and results",
+    "source": "experiments.png",
+    "caption": "The paired patient-bootstrap Brier difference is -0.0028, with a 95% interval from -0.0054 to -0.0002. This is one simulation experiment.",
+    "seconds": 15,
+    "crop": [
+      245,
+      815,
+      1550,
+      1620
+    ]
+  },
+  {
+    "chapter": "Demo 7 - Experiments and results",
+    "source": "experiments.png",
+    "caption": "A shifted synthetic cohort gives AUROC 0.906 and Brier 0.075. Changed physiology and noise reduce performance; this is not external clinical validation.",
+    "seconds": 15,
+    "crop": [
+      245,
+      815,
+      1550,
+      1620
+    ]
+  },
+  {
+    "chapter": "Limitations and originality",
+    "source": "slide-11.png",
+    "caption": "The contribution is this implemented recovery-aware, budgeted hypothesis-bank composition and its reproducible evaluation.",
+    "seconds": 15
+  },
+  {
+    "chapter": "Limitations and originality",
+    "source": "slide-11.png",
+    "caption": "Kalman filtering, Bayesian model averaging, recovery dynamics and information-gain selection already exist. An acronym does not establish scientific novelty.",
+    "seconds": 15
+  },
+  {
+    "chapter": "Limitations and originality",
+    "source": "slide-11.png",
+    "caption": "The planner freezes component risk indices while updating hypothetical weights. It approximates information value rather than exact full-state Bayesian decision theory.",
+    "seconds": 15
+  },
+  {
+    "chapter": "Limitations and originality",
+    "source": "slide-11.png",
+    "caption": "The work needs independent physiological data, calibrated uncertainty, stronger baselines and clinical collaboration before any patient-facing use.",
+    "seconds": 15
+  },
+  {
+    "chapter": "Run and review the project",
+    "source": "slide-12.png",
+    "caption": "Run START_WINDOWS.bat or python app.py, then open the local address. Explore Recovery twin, Inside RECAP and Experiments; export a case or experiment JSON.",
+    "seconds": 15
+  },
+  {
+    "chapter": "Run and review the project",
+    "source": "slide-12.png",
+    "caption": "The repository includes implementation, tests, benchmark artifacts, algorithm notes, model/data card, presentation, report and this silent demo. Team Aegis: thank you.",
+    "seconds": 15
+  }
+]
