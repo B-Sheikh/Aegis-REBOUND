@@ -2,6 +2,10 @@
 
 ## Launch
 
+**Hosted dashboard:** https://aegis-rebound.onrender.com/ . On the free hosting plan, the first visit after inactivity may take about a minute to load.
+
+For a local installation:
+
 1. On Windows, double-click `START_WINDOWS.bat`. Python 3.11+ is required. The first launch installs NumPy into a local environment; subsequent runs work offline.
 2. Open the printed address, normally `http://127.0.0.1:8766`. Other platforms can use the installation commands in [README.md](README.md).
 

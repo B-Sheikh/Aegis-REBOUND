@@ -1,5 +1,7 @@
 # Deploy the demonstration on Render
 
+**Hosted demonstration:** https://aegis-rebound.onrender.com/
+
 The dashboard needs a Python **Web Service** because its replay and inference API runs on the server. The frontend and API are served together; a separate static-site deployment is unnecessary.
 
 ## Dashboard setup
@@ -13,7 +15,7 @@ The dashboard needs a Python **Web Service** because its replay and inference AP
 
 No secrets, database, disk, or API keys are required. The included `.python-version` selects Python 3.13 with Render's latest available patch. The included `render.yaml` defines the equivalent setup for Render's Blueprint flow.
 
-When the deployment shows **Live**, open the HTTPS `onrender.com` URL shown on your service page. The actual hostname depends on availability; use Render's displayed URL. Verify the initial case, optional measurement update, Sensor gap, and Experiments screens. Then add the working URL near the top of the repository README.
+When the deployment shows **Live**, open the HTTPS `onrender.com` URL shown on your service page. The actual hostname depends on availability; use Render's displayed URL. Verify the initial case, optional measurement update, Sensor gap, and Experiments screens. The hosted demonstration URL is linked near the top of the repository README.
 
 ## Free service behavior
 
