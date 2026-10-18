@@ -47,5 +47,3 @@ $("probe").onclick=async()=>{if(!snap||snap.result.status==='abstain')return;con
 $("walking").onclick=()=>{pause();patient='R-064';t=96;probes=[];load();};$("ambiguity").onclick=()=>{pause();patient='R-066';t=108;probes=[];load();};$("gap").onclick=()=>{pause();patient='R-066';t=174;probes=[];load();};
 $("export").onclick=()=>snap&&download(`REBOUND-${patient}-${t}.json`,snap);
 async function init(){const people=await api('/api/patients');for(const p of people){const b=document.createElement('button');b.className='patient';b.dataset.patient=p.id;b.innerHTML=`${p.id}<small>${p.age} y · personal best ${p.personal_best_lpm} L/min</small>`;b.onclick=()=>{pause();patient=p.id;probes=[];load();};$("patients").appendChild(b);}await load();}init().catch(fail);
-
-
