@@ -1,15 +1,25 @@
-# Start here
+# Evaluate Aegis REBOUND
 
-**Recommended revised entry: Aegis REBOUND.** This is the asthma recovery/measurement-selection project, replacing the earlier glucose direction.
+## Launch
 
-1. On Windows, double-click `START_WINDOWS.bat`. Python 3.11+ must be installed. The first run installs NumPy into a local environment; subsequent runs work offline.
-2. Open the address printed in the terminal, normally `http://127.0.0.1:8766`.
-3. Start on R-065 at 10:00. Read the three competing explanations and measurement scores.
-4. Click **Simulate peak flow**. The hypothesis weights change and the budget decreases. This is a new synthetic observation, not a recommendation to test a real patient.
-5. Try **Ambiguous rise**, then **Sensor gap**. Inspect **Inside RECAP** and **Experiments**.
-6. Read `docs/ALGORITHM.md` and `docs/RESULTS.md` before pitching novelty or performance.
-7. Watch `submission/Aegis_REBOUND_15min_Overview.mp4`: a silent 15-minute edition with captions and actual product interaction captures, edited and paced for reading. The original narrated `submission/Aegis_REBOUND_Demo.mp4` remains 20 minutes 30 seconds for the brief's stricter duration wording. See `submission/OVERVIEW_15MIN.md` for demo chapters and rebuilding instructions.
-8. Use `submission/Project_Presentation.pdf` and `submission/Architecture.pdf` for evaluation. The technical report supplies details and limitations.
-9. The repository is https://github.com/B-Sheikh/Aegis-REBOUND . Follow `submission/SUBMISSION_CHECKLIST.md` to upload an unlisted video, add its actual link, designate the leader, and submit through the organizer’s platform.
+1. On Windows, double-click `START_WINDOWS.bat`. Python 3.11+ is required. The first launch installs NumPy into a local environment; subsequent runs work offline.
+2. Open the printed address, normally `http://127.0.0.1:8766`. Other platforms can use the installation commands in [README.md](README.md).
 
-No clinical validation or first-in-the-world novelty is claimed. The proposed algorithm and its experiments are implemented; some simpler baselines score better. Keep that distinction in the presentation.
+## Five-minute product tour
+
+1. Start with **R-065 at 10:00**. Inspect the personal EHR, observed respiratory trace, competing hypotheses and next-observation scores.
+2. Click **Simulate peak flow**. Airway weight changes from 81.2% to 97.1%; the event estimate changes from 70.3% to 75.6%. The budget drops to one remaining observation and cooldown makes the next action wait.
+3. Move the replay timeline forward. The observed prefix, filter states and forecast update. Moving backward clears optional measurements.
+4. Select **Ordinary activity** and **Ambiguous rise** to compare different evidence patterns. The measurement choice and hypothesis weights depend on the case.
+5. Toggle **Reveal withheld future** for retrospective forecast inspection. The overlay does not feed inference.
+6. Select **Sensor gap**. The app withholds inference because the input freshness/completeness requirements are not met.
+7. Open **Inside RECAP** for the algorithm and **Experiments** for ablations, measurement-policy comparisons and the shifted-cohort test. Export a case or the complete experiment JSON.
+
+All observations in this tour are synthetic. Hypothesis weights are model explanations rather than clinical diagnoses.
+
+## Submission materials
+
+- [20:30 project walkthrough](submission/Aegis_REBOUND_Demo.mp4) — complete narrated presentation and prototype overview.
+- [15:00 silent product demo](submission/Aegis_REBOUND_15min_Overview.mp4) — captioned interaction sequences, edited and paced for reading.
+- [Project presentation](submission/Project_Presentation.pdf), [architecture](submission/Architecture.pdf), and [technical report](submission/Technical_Report.pdf).
+- [Deliverables index](submission/DELIVERABLES.md), [algorithm](docs/ALGORITHM.md), and [measured results](docs/RESULTS.md).

@@ -1,4 +1,4 @@
-# Jury questions — precise answers
+# Design rationale
 
 ## What is different from another asthma-alert app?
 
@@ -14,7 +14,7 @@ Each component has persistent continuous state updated through time, forecasts a
 
 ## What did the experiments actually support?
 
-On one synthetic held-out group, adaptive optional observations used 38 probes versus 48 for a fixed schedule and slightly improved Brier score. The paired patient-bootstrap interval favored the adaptive policy in that run. Removing personal resting baselines/priors degraded the filter, but personal-best PEF normalization remained. The recovery bank did not improve event classification and simpler classifiers had better Brier scores. Do not omit those negative findings.
+On one synthetic held-out group, adaptive optional observations used 38 probes versus 48 for a fixed schedule and slightly improved Brier score. The paired patient-bootstrap interval favored the adaptive policy in that run. Removing personal resting baselines/priors degraded the filter, but personal-best PEF normalization remained. The recovery bank did not improve event classification and simpler classifiers had better Brier scores.
 
 ## Is the endpoint an asthma attack?
 
@@ -31,7 +31,3 @@ Yes. A Kalman state/covariance update and a likelihood weight update are applied
 ## What would be needed for clinical relevance?
 
 Permitted genuinely paired longitudinal records, timestamps indicating availability, device-quality characterization, validated clinical outcomes, protocol freezing, site/time/patient separation, independent calibration and external evaluation, alarm-burden assessment, prospective silent testing, and clinician, ethics, security and applicable regulatory review. None is implied by synthetic performance.
-
-## Did the earlier molecular cell model become a patient model?
-
-No. Earlier projects supplied interface and simulation ideas. The respiratory algorithm is a separate implementation. Arbitrary cell-health targets are not used to infer patient physiology, and unlicensed code or private archive material is not redistributed.

@@ -1,6 +1,6 @@
 # REBOUND — 20-minute demonstration and narration
 
-This script accompanies the 12-slide project PDF. The supplied local video, when present, is computer narrated and uses verified application captures; it is not an uninterrupted live screen recording. Review it before upload. Team narration and live interaction are preferable for a final jury presentation. Do not upload the obsolete GlucoTwin walkthrough as this entry’s demo.
+Presentation notes for the 12-slide project PDF and original 20:30 walkthrough. The video uses disclosed computer narration and captured application states. The separate silent 15-minute edition has its own captions in `demo_assets/storyboard.json`.
 
 ## 01 — The question
 
@@ -96,4 +96,4 @@ The final package runs locally with Python and NumPy and includes the calibrated
 
 The tests cover future-data isolation, hidden-state exclusion, sequential replay, missing-data abstention, covariance and weight sanity, probe limits, budget and cooldown, state changes after an observation, endpoint boundaries, API validation, and patient split separation. The architecture PDF, project presentation, technical report, algorithm specification, data card and prior-art map accompany the implementation.
 
-For external submission, designate the team leader, confirm both members’ student details, publish the actual GitHub repository publicly, and upload the reviewed demonstration as unlisted YouTube. Add the real links to the README and verify them without additional permissions. The local package does not perform those registration or publication steps. Team Aegis offers a focused respiratory twin that makes competing explanations and the next useful observation inspectable, with a proposed algorithm and experiments that can expose its limitations as well as its promise.
+Team Aegis offers a focused respiratory twin that makes competing explanations and the next useful observation inspectable. The public repository contains runnable source, synthetic data, experiment artifacts, PDFs and both video editions for evaluation.
